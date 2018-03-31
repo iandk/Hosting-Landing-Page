@@ -1,0 +1,235 @@
+/**
+Title: Hosting Landing Page Template
+Link: https://github.com/iandk/Hosting-Landing-Page/
+Author: Ian Klemm
+Version: 1.0
+Date: 31.03.2018
+**/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+}
+section {
+  padding: 4rem 0;
+}
+.head {
+  background: linear-gradient(180deg,#dcf1ff,#eaeef2);
+  color: #555!important;
+  padding: 1rem 0;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+.head-text {
+  align-self: center;
+}
+.head-text h1 {
+  font-size: 50px;
+  color: #3498db;
+}
+.head-text p {
+  font-size: 20px;
+}
+.head-buttons p {
+  display: inline;
+  margin: 0 0.5rem 0 0;
+}
+button, button:focus {
+  border: 0px;
+  outline: 0;
+}
+.button {
+  display: inline-block;
+  border-radius: 0px;
+  height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 0 7px 17px rgba(0,0,0,0.09);
+  margin: 1rem 0 0 0;
+}
+.button:hover {
+  transition: background-color .2s ease-in-out;
+}
+.button-white {
+  background: white;
+  color: rgba(34, 34, 34, 0.8);
+}
+.button-white:hover, .button-white:focus {
+  color: #222;
+}
+.button-primary {
+  background: #3498db;
+  color: white;
+}
+.button-primary:hover, .button-primary:focus {
+  color: white;
+}
+.button-secondary {
+  background: #EF8354;
+  color: white;
+}
+.button-secondary:hover, .button-secondary:focus {
+  color: white;
+}
+a, a:hover, a:active, a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+.features {
+  text-align: center;
+}
+.features .heading {
+  padding: 0!important;
+}
+.features-single {
+  padding: 4rem 0;
+}
+.features-text {
+  padding-top: 2rem;
+}
+.features-text h3 {
+  color: #3498db;
+}
+.features-text p {
+  max-width: 75%;
+  margin: 0 auto;
+}
+.features-icon {
+  color: #d5dbe5;
+}
+h3 {
+  font-weight: 200;
+}
+.pricing {
+  background: #2D3142;
+}
+.pricing .heading {
+  color: white;
+}
+.box {
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 7px 17px rgba(0,0,0,0.09);
+  text-align: center;
+}
+.box h3 {
+  padding: 0rem 0 1.5rem 0;
+  color: #3498db;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+ .pricing ul, .check ul {
+  padding: 0 0 1rem 0!important;
+}
+ li {
+  line-height: 1.8rem;
+  color: #666;
+}
+.fw {
+  width: 100%;
+}
+.heading {
+  padding: 0 0 3rem 0;
+  font-weight: 300;
+  text-align: center;
+}
+.modal-content {
+  border-radius: 0px;
+  border: none;
+}
+@media (min-width:767px) {
+  .pricing .location-single {
+    margin: 0;
+  }
+}
+@media (max-width:767px) {
+  .location-single {
+    margin: 1rem 0;
+  }
+  .pricing img {
+    width: 40%;
+  }
+}
+
+.check-icon {
+  color: #2ecc71;
+}
+.check span {
+  padding-left: 0.7rem;
+}
+.locations {
+  background: #EF8354;
+  color: white;
+}
+.locations img {
+  width: 50%;
+  margin: 0 auto!important;
+}
+.location-single {
+  text-align: center;
+}
+.location-unavailable {
+  opacity: 0.2;
+}
+img {
+  pointer-events: none;
+}
+.contact {
+  margin: 0 1rem;
+}
+.contact .heading {
+  padding-bottom: 0!important
+}
+.subheading {
+  text-align: center;
+  padding: 0 0 2rem 0;
+  color: #999;
+}
+input, textarea {
+  border-radius: 0px!important;
+  margin: 0.4rem 0;
+  padding: 1rem;
+}
+.form-control {
+  padding: 0.8rem;
+}
+.action {
+  background: #2D3142;
+  color: white;
+  padding: 4rem 0!important;
+  text-align: center;
+}
+.action .subheading {
+  padding: 0!important;
+}
+.footer {
+  padding-bottom: 2rem;
+}
+.footer, .footer h2, .footer p {
+  text-align: left;
+}
+.footer .heading {
+  padding: 0 0 0.5rem 0;
+}
+.footer h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3498db;
+}
+.footer li {
+  color: #999;
+}
